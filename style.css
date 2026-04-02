@@ -1,0 +1,120 @@
+/* shared styles */
+:root {
+    --font-heading: 'Georgia', serif;
+    --font-body: 'Arial', sans-serif;
+    --bg-color: #fff;
+    --text-color: #000;
+    --primary-color: #111;
+    --accent-color: #eee;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    padding: 1.5rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: var(--bg-color);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    padding: 5rem 5%;
+    background-color: var(--bg-color);
+    text-align: center;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero .cta-btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+}
+
+section {
+    padding: 4rem 5%;
+}
+
+.author-bio {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: var(--accent-color);
+    margin-top: 3rem;
+    border-radius: 8px;
+}
+
+.author-bio .avatar {
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 3rem 5%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.services-grid, .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background-color: var(--accent-color);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Page specific overrides are handled inline in head */

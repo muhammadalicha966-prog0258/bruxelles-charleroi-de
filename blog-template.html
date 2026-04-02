@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{POST_TITLE}} | Interdriver Insights</title>
+    <meta name="description" content="{{POST_META_DESCRIPTION}}">
+    <link rel="canonical" href="https://www.example.com/blog/{{POST_SLUG}}.html">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        :root {
+            --bg-color: #f0f0f0;
+            --text-color: #222222;
+            --primary-color: #000000;
+            --accent-color: #e0e0e0;
+        }
+        .article-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo" style="text-decoration:none; color:inherit;"><strong>Premium Transport</strong></a>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../blog.html">Blog</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>{{POST_TITLE}}</h1>
+            <p>Published on {{POST_DATE}} in {{POST_CATEGORY}}</p>
+        </section>
+
+        <section class="article-content">
+            {{POST_BODY}}
+
+            <div class="author-bio">
+                <div class="avatar">JD</div>
+                <div>
+                    <h5>Jane Doe</h5>
+                    <p><strong>Chauffeur Industry Expert</strong></p>
+                    <p>Jane has over 15 years of experience in luxury transportation management, constantly redefining premium travel.</p>
+                </div>
+            </div>
+
+            <div id="related-posts" style="margin-top: 3rem;">
+                <h3>Related Posts Placeholder</h3>
+                <ul>
+                    <li><a href="#">Another Great Read</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Premium Transport. All rights reserved.</p>
+    </footer>
+</body>
+</html>

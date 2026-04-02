@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Direct Booking Service</title>
+    <meta name="description" content="Get in touch with us to book your luxury chauffeur service or request a custom quote.">
+    <link rel="canonical" href="https://www.example.com/contact.html">
+    <meta property="og:title" content="Contact Us | Direct Booking Service">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --bg-color: #ffffff; /* White */
+            --text-color: #333333;
+            --primary-color: #228B22; /* Forest Green */
+            --accent-color: #f0fff0;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--accent-color);
+            padding: 2rem;
+            border-radius: 8px;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo" style="text-decoration:none; color:inherit;"><strong>Premium Transport</strong></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="features.html">Features</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Contact & Bookings</h1>
+            <p>We are ready to assist you. Reserve your vehicle today.</p>
+        </section>
+
+        <section>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Type</label>
+                    <select id="service" name="service">
+                        <option value="airport">Airport Transfer</option>
+                        <option value="corporate">Corporate Transport</option>
+                        <option value="event">Event Transport</option>
+                        <option value="hourly">Hourly Hire</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Requirements</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="cta-btn">Submit Booking Request</button>
+            </form>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <h3>Contact Details</h3>
+                <p>Phone: +32 2 123 4567</p>
+                <p>Email: reservations@example.com</p>
+                <p>Address: 123 Luxury Avenue, 1000 Brussels, Belgium</p>
+            </div>
+        </section>
+
+        <div class="author-bio">
+            <div class="avatar">JD</div>
+            <div>
+                <h5>Jane Doe</h5>
+                <p><strong>Chauffeur Industry Expert</strong></p>
+                <p>Jane has over 15 years of experience in luxury transportation management.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <p>&copy; 2026 Premium Transport. All rights reserved.</p>
+    </footer>
+</body>
+</html>
